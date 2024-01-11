@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/red_ball"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/red_ball_shape"
+        android:gravity="center"
+        android:text="@string/red_ball"
+        android:textColor="#283593"
+        android:textSize="25sp"
+        tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/blue_ball"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/blue_ball_shape"
+        android:gravity="center"
+        android:text="@string/blue_ball"
+        android:textColor="#ffff"
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck,TextSizeCheck" />
+</LinearLayout>

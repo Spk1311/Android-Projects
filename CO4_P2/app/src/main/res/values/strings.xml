@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CO4_P2</string>
+    <string name="red_ball">red_ball</string>
+    <string name="blue_ball">blue_ball</string>
+</resources>
